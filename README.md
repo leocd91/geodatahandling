@@ -1,4 +1,5 @@
-# Python for Geoscientist - Digital Geoscience Data Handling using Python
+# Python for Geoscientist 
+# Digital Geoscience Data Handling using Python
 
 Welcome to "Digital Geoscience Data Handling using Python" Series. During this physical-distancing-new-normal year, I try to compile my experiences in handling digital geoscience / petrotechnical data.
 
