@@ -1,0 +1,75 @@
+1	4	Trace sequence number within line.
+5	4	Trace sequence number within file (reel)
+9	4	Original field record number
+13	4	Trace number within original field record
+17	4	Energy source point number.
+21	4	CDP ensemble number.
+25	4	Trace number within the CDP ensemble.
+29	2	Trace identification code: 1 = seismic data
+31	2	Number of vertically summed traces yielding this trace
+33	2	Number of horizontally stacked traces yielding this trace
+35	2	Data use: 1 = production 2 = test
+37	4	Distance from source point to receiver group.
+41	4	Receiver group elevation - above sea level are positive, below sea level are   negative.
+45	4	Surface elevation at source.
+49	4	Source depth below surface (positive number).
+53	4	Datum elevation at receiver group.
+57	4	Datum elevation at source.
+61	4	Water depth at source (this is the Fish depth below the sea surface in meters*10)
+65	4	Water depth at group.
+69	2	Scalar to be applied to all elevations & depths, specified in bytes 41 - 68 to give the real value. Scalar = 1, +/-10, +/-100, +/-1000, or +/-10,000. If positive, scalar is used as a multiplier; if negative, scalar is used as a divisor.
+71	2	Scalar to be applied to all coordinate specified in bytes 73 - 88 to give the real value. Scalar = 1, +/-10, +/-100, +/-1000, or +/-10,000. If  positive, scalar is used as a multiplier; if negative, scalar is used as a divisor.
+73	4	Source coordinate -Longitude
+77	4	Source coordinate - Latitude
+81	4	Group coordinate - Longitude
+85	4	Group coordinate - Latitude
+89	2	Coordinate units: 1 = length (meters or feet) 2 = seconds of arc
+91	2	weathering velocity.
+93	2	Subweathering velocity.
+95	2	Uphole time at source.
+97	2	Uphole time at group.
+99	2	Source static correction.
+101	2	Group static correction.
+103	2	Total static applied.
+105	2	Lag time A. Time in ms between end of 240-byte trace identification header  and time break. positive if time break occurs after end of header, negative if time break occurs before end of header. Time break is defined as the initiation pulse which may be recorded on an auxiliary trace or as otherwise specified by the recording system. 
+107	2	Lag time B. Time in ms between the time break and positive or negative.
+109	2	Delay recording time. Time in ms between initiation time of energy source and  time when recording of data samples begins.
+111	2	Mute time - start.
+113	2	Mute time - end.
+115	2	Number of samples in this trace.
+117	2	Sample interval, in microseconds, for this trace.
+119	2	Gain type of field instruments: 1 = fixed, 2 = binary, 3 = floating point, 4 = ---  N = optional use
+121	2	Instrument gain constant.
+123	2	Instrument early or initial gain (db).
+125	2	Correlated: 1 = no 2 = yes
+127	2	Sweep frequency at start.
+129	2	Sweep frequency at end.
+131	2	Sweep length, ms.
+133	2	Sweep type: 1 = linear 2 = parabolic 3 = exponential 4 = other
+135	2	Sweep trace taper length at start, ms.
+137	2	Sweep trace taper length at end, ms.
+139	2	Taper type: 1 = linear 2 = cos 3 = other
+141	2	Alias filter frequency.
+143	2	Alias filter slope.
+145	2	Notch filter frequency.
+147	2	Notch filter slope.
+149	2	Low cut frequency.
+151	2	High cut frequency.
+153	2	Low cut slope.
+155	2	High cut slope.
+157	2	Year data recorded (four digit integer).
+159	2	Day of year.
+161	2	Hour of day (24 hour clock).
+163	2	Minute of hour.
+165	2	Second of minute.
+167	2	Time basis code: 1 = local 2 = GMT 3 = other
+169	2	Trace weighting factor - defined as 2-N volts for the least significant bit. (N=0,  1,...,32,767)
+171	2	Geophone group number of roll switch position one.
+173	2	Geophone group number of trace number one within original field record.
+175	2	Geophone group number of last trace within original field record.
+177	2	Gape size (total number of groups dropped).
+179	2	Overtravel associated with taper at beginning or end of line: 1 = down (or behind) 2 = up (or ahead)
+181	4	CDPX
+185	4	CDPY
+189	4	INLINE
+193	4	XLINE
