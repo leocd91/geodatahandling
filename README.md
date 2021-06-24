@@ -5,7 +5,7 @@ Welcome to "Digital Geoscience Data Handling using Python" Series. During this p
 
 This will include: Parsing any type of data, QC analysis, database, feeding data for geophysical inversion - machine learning / deep learning stuffs, and maybe handling those data to do some GP-GPU too in the future.
 
-I made this tutorial as beginner-friendly as possible, so some explanation might be too simple and even. Some code are not pythonic for that reason too.
+I made this tutorial as beginner-friendly as possible, so some words that I use might be too simple or 'right' as it is intended in technical terms. Some code are not pythonic for that reason too.
 
 You can also run it online using Google's Colab here:
 
